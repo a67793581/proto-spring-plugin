@@ -8,4 +8,5 @@ managed:
       value: SPEED
 plugins:
   - remote: buf.build/protocolbuffers/go
-    out: ../options/
+    out: ../gen
+    opt: paths=source_relative

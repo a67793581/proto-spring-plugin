@@ -3,8 +3,7 @@
 syntax = "proto3";
 
 package spring.options;
-
-option go_package = ".;options";
+option go_package = "github.com/a67793581/proto-spring-plugin/gen/spring/options;options";
 
 import "google/protobuf/descriptor.proto";
 
